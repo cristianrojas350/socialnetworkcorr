@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SocialNetworkCorr - Red Social con Microservicios
 
 Una red social moderna construida con arquitectura de microservicios usando Node.js, React y PostgreSQL.
@@ -85,12 +84,10 @@ npm test
 # Frontend
 cd frontend
 npm test
+
+npm run test:cov
 ```
 
 ## 📝 Licencia
 
 MIT 
-=======
-# socialnetworkcorr
-network social mediam
->>>>>>> 74a67bd1b301b00eeae725807e2d27d28242c0d0

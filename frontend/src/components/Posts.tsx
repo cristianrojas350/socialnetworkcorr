@@ -5,6 +5,7 @@ import { postsService } from '../services/postsService';
 import { Post } from '../types';
 import toast from 'react-hot-toast';
 import { HeartIcon } from '@heroicons/react/24/outline';
+import Spinner from './Spinner';
 
 const Posts: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -68,7 +69,7 @@ const Posts: React.FC = () => {
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-xl">Cargando publicaciones...</div>
+        <Spinner />
       </div>
     );
   }
